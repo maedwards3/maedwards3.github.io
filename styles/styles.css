@@ -1,0 +1,11 @@
+body {
+    background-image: url("../assets/Man_Riding_Stationary_Bike.jpg");
+    color: white;
+}
+
+.nav-list__item {
+    float: left;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
