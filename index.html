@@ -7,47 +7,57 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <title>Document</title>
 </head>
-<body>
-    <div>
-        <header class="headline">
-            <p>Michael Edwards</p>
-        </header>
-    </div>
-    <div>
-        <nav>
-            <ul class="nav-list" style ="list-style-type: none;" >
+ <body>
+    <nav>
+        <div class="topnav">
+            <ul class="topnav-centered" style ="list-style-type: none;" >
                 <li class="nav-list__item"><a href="">Home</a></li>
                 <li class="nav-list__item"><a href="">About Me</a></li>
                 <li class="nav-list__item"><a href="">Portfolio</a></li>
                 <li class="nav-list__item"><a href="">Contact</a></li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <br>
-    <div class="about-me">
-        <section>
+    <section>
+        <div class="home-section"></div>
+        <div class="hero">
+            <h1>Michael Edwards</h1>
+            <h4>Aspiring Developer</h4>      
+            <h4>USAF Veteran</h4>        
+        </div>
+    </section>
+    <section>
+        <div class="about-me">
+            <h3><stong>About Me:</stong></h3>
             <p>
-                My name is Michael Edwards and I am beginning my journey into the world of Software Development.
-                <br>
+                My name is Michael Edwards and I am beginning my journey into the world of Software Development.         
                 Over the past 9 years I have spent a majority of time in the United States Air Force which has propelled
-                <br>
                 me into searching for a career field that allows me to utilize my logical and problem solving skillsets
-                <br>
                 and apply that to what I am passionate about. My plan is to take this new knowledge on programming
-                <br>
                 languages and software applications and apply it towards technology that will improve the way users see
-                <br>
-                feel towards fitness; allowing them to incorporate a healthier lifestyle into their daily lives.
+                and feel towards fitness; allowing them to incorporate a healthier lifestyle into their daily lives.
             </p>
-        </section>
+        </div>
+    </section>
+    <div class="container">
+        <img src="../maedwards3.github.io/assets/Pic_Of_Me.JPG" alt="This_is_a_picture_of_me">
     </div>
-    <div class="projects">
-        <section>
-            <h1 class="projects-heading">My Projects</h1>
-                <ul class="projects__individual">
+    <section>
+        <div class="projects">
+            <h1>My Projects</h1>
+                <ul style="list-style-type: none;">
                     <li><a href="url">https://github.com/maedwards3/my_First_Project_Repo</a></li>
                 </ul>
+            </div>
         </section>
-    </div>
+    <section>
+        <div class="contact">
+            <form>
+                Please enter your email to get in contact with me:<input type="text" name="email" value="">
+                <input type="button" value="submit">
+            </form>
+        </div>
+    </section>
 </body>
 </html>
