@@ -1,21 +1,122 @@
-body {
-    /* background-image: url("../assets/Man_Riding_Stationary_Bike.jpg") ; */
+body, html {
+    background: url(../assets/Man_Riding_Stationary_Bike.jpg) no-repeat center center fixed;
+    background-size: cover;
     color: black;
+    height: 100%;
 }
 
-.headline {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 3vw;
-    color: black;
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #bd3737;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+.home-section {
+    padding: 20%;
+    background-image: url("../assets/Plane_Taking_Off.jpg");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.2);
+    color: #f90808;
+    font-weight: bold;
+    font-size: 30px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+.nav-list {
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
 }
 
 .nav-list__item {
     float: left;
-    font-size: 2vh;
+    font-size: 30px;
     text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .about-me {
+    margin-left: 50%;
+    margin-top: 400px;
+    margin-bottom: 175px;
+    margin-right: 10%;
     color: black;
+    font-family: monospace;
+    font-size: 23px;
+    background-color: peachpuff;
+    border: 4px solid orangered;
+    float: right;
+    text-align: justify;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.container {
+    float: left;
+    margin: 15%;
+    width: 200px;
+    height: 150px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.projects {
+    float: right;
+    margin: 10%;
+    padding: 5%;
+    font-size: 25px;
+    background-color: peachpuff;
+    color: unset;
+    font-style: italic;
+    border: 4px solid orangered
+}
+
+.contact {
+    float: right;
+    padding: 30px;
+    color: white;
+    font-size: 22px;
 }
